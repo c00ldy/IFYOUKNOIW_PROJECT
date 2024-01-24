@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.logoimg {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 28px 252px 0px 252px;
+}
+
+.btn {
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    margin-left: 34px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.20rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 186px;
+}
+
+.searchbar {
+
+    width: 76.3125rem;
+    height: 3.9375rem;
+    border-radius: 2.6875rem;
+    border: 3px solid #ADFF00;
+    margin-left: 142.3px;
+    background: rgba(173, 255, 0, 0.00);
+}
+
+.siipdroo {
+    display: flex;
+    align-items: center;
+
+}
+
+.searchpng {
+    margin: 16px;
+    fill: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.inputbar {
+    padding: 11px;
+    margin-left: -1px;
+    margin-bottom: 8px;
+    padding-right: 596px;
+    background-color: transparent;
+    border: transparent;
+    font-size: 25px;
+    outline: none;
+    color: white;
+}
+
+.examp {
+    opacity: 33%;
+    margin-top: 5px;
+    margin-left: 221px;
+}
+
+.examp:hover {
+    transition-duration: .7s;
+    opacity: 75%;
+}
+
+.fields {
+    display: flex;
+    flex-direction: row;
+}
+
+.dropdwn {
+    text-align: center;
+    font-size: 21px;
+    border-radius: 55px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #adff00;
+    padding: 14px 37px;
+    margin: -6px 0px 2px 116px;
+    border: none;
+}
+
+.dropdwn:hover {
+    transition-duration: .3s;
+    cursor: pointer;
+    padding: 16px 60px 9px 60px;
+    margin: -6px 0px 2px 69px;
+    background-color: #9be300;
+}
+
+.datas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 258px;
+    margin-right: 258px;
+    margin-top: 100px;
+
+}
+
+.box {
+
+    width: 33%;
+}
+
+.mouceicon {
+    margin-top: 96px;
+    width: 20.875px;
+    height: 36px;
+    position: sticky;
+    left: 750px;
+}
+
+.searchanything {
+    margin: 102px 0px 90px 133px;
+    width: 82vw;
+    height: 40.39406vh;
+    border-radius: 1.8125rem;
+    border: 1px solid #FFF;
+    opacity: 0.75;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) -30.31%, rgba(190, 190, 190, 0.10) 81.29%);
+    mix-blend-mode: screen;
+    box-shadow: 0px 5px 12.9px 0px rgba(255, 252, 252, 0.26);
+    backdrop-filter: blur(134px);
+}
+
+.layer1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.icn {
+    margin: 53px;
+}
+
+.text {
+    margin: 59px 46px 0px 0px;
+}
+
+.faq {
+    margin-top: 114px;
+    text-align: center;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 23px;
+}
+
+.fq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+}
+
+.Card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 4px;
+    border-radius: 1.3rem;
+    height: 63px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) -30.31%, rgba(255, 255, 255, 0.10) 81.29%);
+    width: 54rem;
+}
+
+.num {
+    padding: 6px 0 0 14px;
+    font-size: 35px;
+}
+
+.maintext {
+    color: #ADFF00;
+}
+
+.fq>:nth-child(1)>.maintext {
+    padding-right: 34rem;
+    padding-top: 18px;
+    font-size: 19px;
+}
+
+.fq>:nth-child(2)>.maintext {
+    padding-right: 36rem;
+    padding-top: 18px;
+    font-size: 19px;
+}
+
+.fq>:nth-child(3)>.maintext {
+    padding-right: 36rem;
+    padding-top: 18px;
+    font-size: 19px;
+}
+
+.fq>:nth-child(4)>.maintext {
+    padding-right: 38rem;
+    padding-top: 18px;
+    font-size: 19px;
+}
+
+.fq>:nth-child(5)>.maintext {
+    padding-right: 36rem;
+    padding-top: 18px;
+    font-size: 19px;
+}
+
+.fq>:nth-child(6)>.maintext {
+    padding-right: 32rem;
+    padding-top: 18px;
+    font-size: 19px;
+}
+
+.plus {
+    font-size: 45px;
+    padding-right: 10px;
+}
+
+.line {
+    height: 3px;
+    width: 219px;
+    border-radius: 50px;
+    margin: 60px 23px 51px 674px;
+    background-color: rgba(255, 255, 255, 0.54);
+}
+
+.databaseinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 14px 448px 1px 507px;
+}
+
+.firstpart {
+    padding-right: 44px;
+}
+
+.secondline {
+    height: 3px;
+    width: 0px 219px 0px 219px;
+    border-radius: 50px;
+    margin: 60px 0 51px 0px;
+    background-color: rgba(255, 255, 255, 0.54);
+}
+
+/* borders */
+
+/* .navbar {
+    border: 2px solid red;
+}
+
+.one {
+    border: 2px solid red;
+}
+
+.datas {
+    border: 2px solid red;
+}
+
+.mouceicon {
+    border: 2px solid red;
+}
+
+.searchanything {
+    border: 2px solid red;
+}
+
+.faq {
+    border: 2px solid red;
+}
+
+.fq {
+    border: 2px solid red;
+
+}
+
+.databaseinfo {
+    border: 2px solid red;
+} */
+
+/* end borders */
+
+/* media quarya */
+
+@media (max-width: 1122px) and (min-width:1485px){
+
+    .logoimg {
+        margin-left: -91px;
+    }
+
+    nav> :nth-child(2) {
+        margin-right: -161px;
+    }
+
+    .title {
+        margin-top: 89px;
+        font-size: 40px;
+    }
+
+    .searchbar {
+        width: 74.3125vw
+    }
+
+    .inputbar {
+        padding-right: 207px;
+    }
+
+    .mouceicon {
+        position: sticky;
+        left: 549px;
+    }
+
+    .searchanything {
+        width: 77vw;
+        height: 68.39406vh;
+    }
+
+    .icn {
+        width: 9vw;
+        margin: 48px;
+    }
+
+    .text {
+        margin: 40px 0 0 0;
+        width: 60vw;
+        font-size: 12px;
+    }
+
+    .secdivtwo {
+        width: 50vw;
+    }
+
+    .secdivthree {
+        width: 58vw;
+    }
+
+    .Card {
+        width: 50vw;
+        height: 18vh;
+    }
+
+    .num {
+        font: 28px;
+    }
+
+    .fq> :nth-child(1)>.maintext {
+        padding-right: 14rem;
+        padding-top: 18px;
+    }
+
+    .fq> :nth-child(2)>.maintext {
+        padding-right: 17rem;
+        padding-top: 18px;
+    }
+
+    .fq> :nth-child(3)>.maintext {
+        padding-right: 17rem;
+        padding-top: 18px;
+    }
+
+    .fq> :nth-child(4)>.maintext {
+        padding-right: 19rem;
+        padding-top: 18px;
+    }
+
+    .fq> :nth-child(5)>.maintext {
+        padding-right: 17rem;
+        padding-top: 18px;
+    }
+
+    .fq> :nth-child(6)>.maintext {
+        padding-right: 13rem;
+        padding-top: 18px;
+    }
+
+    .plus {
+        font-size: 33px;
+        padding-top: 4px;
+        padding-right: 11px;
+    }
+
+    .line {
+        margin: 48px 27px 59px 443px;
+    }
+
+    .databaseinfo {
+        padding: 15px 321px 74px 329px;
+    }
+}
+
+
+@media (max-width: 845px) {
+
+    .navbar {
+        width: 111vw;
+
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logoimg {
+        margin-left: 5px;
+    }
+
+
+    nav> :nth-child(2) {
+        margin-left: -196px;
+        margin-top: 17px;
+    }
+
+    .one {
+        width: 111vw;
+    }
+
+    .title {
+        margin-top: 89px;
+        font-size: 27px;
+    }
+
+    .searchbar {
+        width: 74.3125vw
+    }
+
+    .inputbar {
+        padding-right: 8px;
+    }
+
+    .dropdwn {
+        margin: -6px 0px 2px 99px;
+    }
+
+    .examp {
+        font-size: 11px;
+    }
+
+    .datas {
+        margin-top: 52px;
+        flex-direction: column;
+        margin-right: 179px;
+    }
+
+    .box {
+        width: 39%;
+        padding: 26px;
+    }
+
+    .mouceicon {
+        position: sticky;
+        left: 444px;
+    }
+
+    .searchanything {
+        width: 80vw;
+        height: 68.39406vh;
+        margin-left: 134px
+    }
+
+    .faq {
+        width: 111vw;
+    }
+
+    .fq {
+        width: 111vw;
+    }
+
+    .icn {
+        width: 9vw;
+        margin: 48px;
+    }
+
+    .text {
+        margin: 40px 0 0 0;
+        width: 60vw;
+        font-size: 12px;
+    }
+
+    .secdivtwo {
+        width: 50vw;
+    }
+
+    .secdivthree {
+        width: 58vw;
+    }
+
+    .Card {
+        width: 50vw;
+        height: 18vh;
+    }
+
+    .num {
+        font-size: 28px;
+    }
+
+    .fq> :nth-child(1)>.maintext {
+        padding-right: 6rem;
+        padding-top: 15px;
+    }
+
+    .fq> :nth-child(2)>.maintext {
+        padding-right: 8rem;
+        padding-top: 15px;
+    }
+
+    .fq> :nth-child(3)>.maintext {
+        padding-right: 8rem;
+        padding-top: 15px;
+    }
+
+    .fq> :nth-child(4)>.maintext {
+        padding-right: 10rem;
+        padding-top: 15px;
+    }
+
+    .fq> :nth-child(5)>.maintext {
+        padding-right: 8rem;
+        padding-top: 15px;
+    }
+
+    .fq> :nth-child(6)>.maintext {
+        padding-right: 4rem;
+        padding-top: 15px;
+    }
+
+    .plus {
+        font-size: 33px;
+        padding-top: 4px;
+        padding-right: 11px;
+    }
+
+    .line {
+        margin: 48px 27px 59px 359px;
+    }
+
+    .databaseinfo {
+        width: 56vw;
+        padding: 15px 321px 74px 249px;
+    }
+
+    .secondline {
+        width: 111vw;
+    }
+}
