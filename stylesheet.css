@@ -10,6 +10,9 @@
 body {
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .logoimg {
@@ -22,6 +25,11 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: 28px 252px 0px 252px;
+}
+
+nav>:nth-child(2) {
+    display: flex;
+    flex-direction: row;
 }
 
 .btn {
@@ -279,9 +287,28 @@ nav {
     background-color: rgba(255, 255, 255, 0.54);
 }
 
-/* borders */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
 
-/* .navbar {
+.footer>:nth-child(2) {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.socialmediaicon>div>i {
+    font-size: 2rem;
+    padding: 0 0.6rem;
+}
+
+/* borders
+
+.navbar {
     border: 2px solid red;
 }
 
@@ -312,270 +339,4 @@ nav {
 
 .databaseinfo {
     border: 2px solid red;
-} */
-
-/* end borders */
-
-/* media quarya */
-
-@media (max-width: 1122px) and (min-width:1485px){
-
-    .logoimg {
-        margin-left: -91px;
-    }
-
-    nav> :nth-child(2) {
-        margin-right: -161px;
-    }
-
-    .title {
-        margin-top: 89px;
-        font-size: 40px;
-    }
-
-    .searchbar {
-        width: 74.3125vw
-    }
-
-    .inputbar {
-        padding-right: 207px;
-    }
-
-    .mouceicon {
-        position: sticky;
-        left: 549px;
-    }
-
-    .searchanything {
-        width: 77vw;
-        height: 68.39406vh;
-    }
-
-    .icn {
-        width: 9vw;
-        margin: 48px;
-    }
-
-    .text {
-        margin: 40px 0 0 0;
-        width: 60vw;
-        font-size: 12px;
-    }
-
-    .secdivtwo {
-        width: 50vw;
-    }
-
-    .secdivthree {
-        width: 58vw;
-    }
-
-    .Card {
-        width: 50vw;
-        height: 18vh;
-    }
-
-    .num {
-        font: 28px;
-    }
-
-    .fq> :nth-child(1)>.maintext {
-        padding-right: 14rem;
-        padding-top: 18px;
-    }
-
-    .fq> :nth-child(2)>.maintext {
-        padding-right: 17rem;
-        padding-top: 18px;
-    }
-
-    .fq> :nth-child(3)>.maintext {
-        padding-right: 17rem;
-        padding-top: 18px;
-    }
-
-    .fq> :nth-child(4)>.maintext {
-        padding-right: 19rem;
-        padding-top: 18px;
-    }
-
-    .fq> :nth-child(5)>.maintext {
-        padding-right: 17rem;
-        padding-top: 18px;
-    }
-
-    .fq> :nth-child(6)>.maintext {
-        padding-right: 13rem;
-        padding-top: 18px;
-    }
-
-    .plus {
-        font-size: 33px;
-        padding-top: 4px;
-        padding-right: 11px;
-    }
-
-    .line {
-        margin: 48px 27px 59px 443px;
-    }
-
-    .databaseinfo {
-        padding: 15px 321px 74px 329px;
-    }
-}
-
-
-@media (max-width: 845px) {
-
-    .navbar {
-        width: 111vw;
-
-    }
-
-    nav {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .logoimg {
-        margin-left: 5px;
-    }
-
-
-    nav> :nth-child(2) {
-        margin-left: -196px;
-        margin-top: 17px;
-    }
-
-    .one {
-        width: 111vw;
-    }
-
-    .title {
-        margin-top: 89px;
-        font-size: 27px;
-    }
-
-    .searchbar {
-        width: 74.3125vw
-    }
-
-    .inputbar {
-        padding-right: 8px;
-    }
-
-    .dropdwn {
-        margin: -6px 0px 2px 99px;
-    }
-
-    .examp {
-        font-size: 11px;
-    }
-
-    .datas {
-        margin-top: 52px;
-        flex-direction: column;
-        margin-right: 179px;
-    }
-
-    .box {
-        width: 39%;
-        padding: 26px;
-    }
-
-    .mouceicon {
-        position: sticky;
-        left: 444px;
-    }
-
-    .searchanything {
-        width: 80vw;
-        height: 68.39406vh;
-        margin-left: 134px
-    }
-
-    .faq {
-        width: 111vw;
-    }
-
-    .fq {
-        width: 111vw;
-    }
-
-    .icn {
-        width: 9vw;
-        margin: 48px;
-    }
-
-    .text {
-        margin: 40px 0 0 0;
-        width: 60vw;
-        font-size: 12px;
-    }
-
-    .secdivtwo {
-        width: 50vw;
-    }
-
-    .secdivthree {
-        width: 58vw;
-    }
-
-    .Card {
-        width: 50vw;
-        height: 18vh;
-    }
-
-    .num {
-        font-size: 28px;
-    }
-
-    .fq> :nth-child(1)>.maintext {
-        padding-right: 6rem;
-        padding-top: 15px;
-    }
-
-    .fq> :nth-child(2)>.maintext {
-        padding-right: 8rem;
-        padding-top: 15px;
-    }
-
-    .fq> :nth-child(3)>.maintext {
-        padding-right: 8rem;
-        padding-top: 15px;
-    }
-
-    .fq> :nth-child(4)>.maintext {
-        padding-right: 10rem;
-        padding-top: 15px;
-    }
-
-    .fq> :nth-child(5)>.maintext {
-        padding-right: 8rem;
-        padding-top: 15px;
-    }
-
-    .fq> :nth-child(6)>.maintext {
-        padding-right: 4rem;
-        padding-top: 15px;
-    }
-
-    .plus {
-        font-size: 33px;
-        padding-top: 4px;
-        padding-right: 11px;
-    }
-
-    .line {
-        margin: 48px 27px 59px 359px;
-    }
-
-    .databaseinfo {
-        width: 56vw;
-        padding: 15px 321px 74px 249px;
-    }
-
-    .secondline {
-        width: 111vw;
-    }
-}
+}  */
